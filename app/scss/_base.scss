@@ -14,6 +14,7 @@
 .right {text-align: right;}
 .center {text-align: center;}
 .vertical-space-sm {height: $sm;}
+.vertical-space-lg {height: $lg;}
 .vertical-space-xl {height: $xl;}
 .inset-960 {max-width: 960px;}
 .inset-1220 {max-width: 1220px;}
@@ -47,6 +48,7 @@ p {
     color: $teal;
     font-size: 2em;
     font-weight: 400;
+    margin: 0.4em;
     @include breakpoint(small-screen) {
       font-size: 1.5em;
     }
